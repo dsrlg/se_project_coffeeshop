@@ -1,0 +1,64 @@
+.about{
+    background-color: #0A2850;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .about__title{
+    max-width: 251px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  display: flex;
+      color: white;
+      font-family: 'Inter', sans-serif;
+      margin: 100px 80px;
+      position: relative;
+      z-index: 1;
+  }
+  .about__content{
+    max-width: 660px;
+    margin: 119px 80px 173px ;
+      float: left;
+      color: white;
+      font-family: "Noto Serif", "Times New Roman", sans-serif;
+      font-size: 20px;
+      line-height: 30px;
+      position: relative;
+      z-index: 1;
+  }
+  .about__paragrapgh{
+    font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  }
+  .about__circle{
+    border-radius: 50%;
+    width: 426px;
+    height: 426px;
+    width: 300px;
+    height: 300px;
+    background-color: #2F80ED;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    z-index: 0;
+  }
+  .about__circle_animation_blurred{
+    width: 426px;
+    height: 426px;
+    background-color: #2F80ED;
+    border-radius: 50%;
+    position: absolute;
+    top: -80px;
+    left: -129px;
+    z-index: 0;
+    opacity: 0;
+    animation: pulsate 1.3s ease-in-out infinite;
+      }
