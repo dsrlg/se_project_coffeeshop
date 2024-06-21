@@ -3,6 +3,7 @@
   background-color: #fff;
   background-image: url("../images/background_menu.svg");
   background-size: cover;
+  background-position: center;
 }
 .menu__title {
   margin: 0 auto 24px;
@@ -12,6 +13,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  max-width: 580px;
 }
 .menu__subtitle {
   text-align: center;
@@ -21,6 +23,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  max-width: 438px;
 }
 .menu__cards {
   display: flex;

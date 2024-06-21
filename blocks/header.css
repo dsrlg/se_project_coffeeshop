@@ -1,13 +1,14 @@
 .header__image {
   position: absolute;
-  top: 135px;
+  top: 124px;
   z-index: -1;
-  right: 20px;
+  right: 5px;
   text-align: right;
   width: 646px;
   height: 568px;
 }
 .header {
+  box-sizing: border-box;
   padding: 30px 80px 40px;
   min-height: 720px;
   max-height: 800px;
@@ -16,7 +17,8 @@
   flex-direction: column;
   background-color: #ffffff;
   background-image: url(../images/background_header.svg);
-  background-size: contain;
+  background-position: center;
+  background-size: cover;
   position: relative;
   z-index: 1;
   margin-top: auto;
@@ -58,7 +60,7 @@
   color: #6f6f6f;
   align-items: end;
 }
-.header__paragrapgh {
+.header__paragraph {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
